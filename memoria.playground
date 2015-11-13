@@ -1,0 +1,25 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+for index in 0...100 {
+    if(index % 5 == 0)
+    {
+        print("BINGO: " + String(index))
+    }
+    if(index % 5 == 0)
+    {
+        print("PAR: " + String(index))
+    }
+    else
+    {
+        print("IMPAR: " + String(index))
+    }
+    if(index >= 30 || index <= 40)
+    {
+        print("VIVA SWIFT: " + String(index))
+    }
+    
+    //print("\(index) times 5 is \(index * 5)")
+    print(index)
+}
