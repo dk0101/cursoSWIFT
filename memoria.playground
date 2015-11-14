@@ -15,7 +15,7 @@ for index in 0...100 {
     {
         print("IMPAR: " + String(index))
     }
-    if(index >= 30 || index <= 40)
+    if(index >= 30 && index <= 40)
     {
         print("VIVA SWIFT: " + String(index))
     }
